@@ -1,0 +1,27 @@
+* {
+  font-family: Arial;
+}
+
+table, tr, td, th {
+border: 1px solid black;
+}
+
+h1 {
+  color: MediumOrchid;
+}
+
+thead {
+  color: purple;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #f59ae6;
+}
+
+
+.Selectors {
+  background-color: linen;
+}
+
+.other {
+  background-color: linen;
+}
