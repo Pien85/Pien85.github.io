@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS cheatsheet</title>
+    <link href="./resources/cheatsheet.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>CSS Selectors</h1>
+      <table class="Selectors">
+        <thead>
+          <th id="col1">Selector</th>
+          <th id="col2">Meaning</th>
+          <th id="col3">Example</th>
+        </thead>
+        <tbody>
+          <tr>
+          <td>Universal Selector</td>
+          <td>Applies to all elements in the document</td>
+          <td>*</td>
+          </tr>
+          <tr>
+          <td>Type Selector</td>
+          <td>Matches elements names</td>
+          <td>h1, h2, h3 etc</td>
+          </tr>
+          <tr>
+            <td>Class Selector</td>
+            <td>Matches an element whose class = a value that matches the one specified after the period symbol</td>
+            <td>.note, p.note etc</td>
+          </tr>
+          <tr>
+            <td>ID Selector</td>
+            <td>Matches an element whose id attribute has a value that matches the one specified</td>
+            <td>#intro</td>
+          </tr>
+        </tbody>
+      </table>
+      <h1>Other important CSS stuff I forget</h1>
+      <table class="other">
+        <thead>
+          <th>Name</th>
+          <th>Description</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Selector</td>
+            <td>Indicates which element a rule applies to. A rule can apply to more than one element: seperate them with comma's</td>
+          </tr>
+          <tr>
+            <td>Declaration</td>
+            <td>Indicate how the element should bestyled. Declarations are split in to a <b>property</b> and a <b>value</b> these are separated by a colon (:)</td>
+          </tr>
+          <tr>
+            <td>Property</td>
+            <td>Indicates the aspects of the element eg: color, font, width etc</td>
+          </tr>
+          <tr>
+            <td>Value</td>
+            <td>Specify the settings suchs as 'yellow' or 'Times New Roman'</td>
+          </tr>
+          <tr>
+            <td>&lt;link&gt; </td>
+            <td>Points an html file to the css stylesheet. Lives inside the &lt;head&gt; element and should have <b>href</b>, <b>type</b> and <b>rel</b> attributes</td>
+          </tr>
+          <tr>
+            <td>href</td>
+            <td>Specifies the path to the css file</td>
+          </tr>
+          <tr>
+            <td>Type</td>
+            <td>Specifies the type of document being linked. Value should be text/css</td>
+          </tr>
+          <tr>
+            <td>rel</td>
+            <td>Specifies the relationship between the html page and the file it is linked to. Should be 'stylesheet' when linking to a css file</td>
+          </tr>
+        </tbody>
+      </table>
+  </body>
+</html>
