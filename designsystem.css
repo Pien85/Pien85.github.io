@@ -1,1 +1,91 @@
+body {
+    margin: 10%;
+}
 
+h1, h2, p {
+    font-family: roboto;
+
+}
+
+h1 { 
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 { 
+    font-size: 24px;
+}
+
+p, ul {
+    font-size: 18px;
+}
+
+.container {
+    border: 2px solid gray;
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 10px;
+}
+
+.color-container {
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    border-radius: 3px;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.pink {
+    background-color: #F9DCE1;
+}
+
+.blue {
+    background-color: #2C369C;
+}
+
+.purple {
+    background-color: #753F83;
+}
+
+.beige {
+    background-color: #FDF1E7;
+}
+
+#color-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#name-font {
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#Glory {
+    font-family: Glory;
+    font-size: 30px;
+}
+
+#Playfair {
+    font-family: "playfair-display";
+    font-size: 30px;
+}
+
+#Roboto {
+    font-family: roboto;
+    font-size: 30px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
