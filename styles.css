@@ -1,0 +1,64 @@
+/* Styles for all pages */
+
+/* * {
+  width: 800px;
+  margin: 0 auto;
+} */
+
+.container {
+  font-size: 18px;
+  font-family: sans-serif;
+  border-top: 10px solid #300547;
+  width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #ffedf7;
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  color: #300547;
+}
+
+nav {
+  font-weight: bold;
+  background-color: rgb(230, 189, 195);
+  text-align: center;
+}
+
+nav a:link,
+nav a:visited {
+  text-decoration: none;
+  color: #300547;
+}
+
+nav a:hover,
+nav a:active {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 1.6;
+  color: #300547;
+}
+
+li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer {
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+article {
+  margin-bottom: 20px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid #300547;
+}

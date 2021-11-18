@@ -1,0 +1,19 @@
+h2 {
+  color: #300547;
+  font-size: 24px;
+  text-align: center;
+}
+
+.foto-gezin {
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.baby-aan-borst {
+  width: 50%;
+  height: auto;
+  float: left;
+  margin-right: 20px;
+}

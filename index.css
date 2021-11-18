@@ -1,0 +1,17 @@
+.photo-anne {
+  height: 200px;
+  width: auto;
+  float: left;
+  margin-right: 20px;
+}
+
+.link-in-text:link,
+.link-in-text:visited {
+  color: #300547;
+}
+
+.link-in-text:hover,
+.link-in-text:active {
+  text-decoration: none;
+  background-color: rgb(230, 189, 195);
+}
